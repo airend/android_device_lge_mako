@@ -127,6 +127,8 @@ EXTENDED_FONT_FOOTPRINT := true
 
 MALLOC_SVELTE := true
 
+USE_CLANG_PLATFORM_BUILD := true
+
 -include vendor/lge/mako/BoardConfigVendor.mk
 
 BOARD_HAS_NO_SELECT_BUTTON := true
