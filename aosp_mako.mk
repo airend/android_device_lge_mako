@@ -17,6 +17,9 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 
 PRODUCT_NAME := aosp_mako
 
+PRODUCT_COPY_FILES += \
+    device/lge/mako/media_codecs_ffmpeg.xml.stub:/system/etc/media_codecs_ffmpeg.xml
+
 PRODUCT_PACKAGES += \
     Terminal \
     Launcher3
