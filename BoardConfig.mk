@@ -108,6 +108,9 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
+# Some of our vendor libs have text relocations
+TARGET_NEEDS_PLATFORM_TEXTRELS := true
+
 BOARD_SEPOLICY_DIRS += \
        device/lge/mako/sepolicy
 
