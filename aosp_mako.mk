@@ -18,4 +18,5 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 PRODUCT_NAME := aosp_mako
 
 PRODUCT_PACKAGES += \
+    Terminal \
     Launcher3
