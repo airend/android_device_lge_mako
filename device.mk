@@ -19,7 +19,8 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
+# Base AOSP overlays
+DEVICE_PACKAGE_OVERLAYS += device/lge/mako/overlay/aosp
 
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
