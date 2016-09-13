@@ -111,6 +111,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 # Some of our vendor libs have text relocations
 TARGET_NEEDS_PLATFORM_TEXTRELS := true
 
+# Force GCC-built Pthreads
+BOARD_NEEDS_GCC_PTHREADS := true
+
 BOARD_SEPOLICY_DIRS += \
        device/lge/mako/sepolicy
 
